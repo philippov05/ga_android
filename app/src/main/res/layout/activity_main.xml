@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_crowd_1"
+    tools:context="com.hackyourself.guitair.MainActivity">
+
+    <FrameLayout
+        android:layout_marginTop="95dp"
+        android:layout_gravity="top|center"
+        android:layout_width="270.5dp"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/frameLayout">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/guitair_logo_text"
+            android:layout_gravity="center_horizontal|top" />
+
+        <ImageView
+            android:layout_marginRight="19dp"
+            android:layout_width="169dp"
+            android:layout_height="76dp"
+            android:src="@drawable/guitair_logo_star"
+            android:id="@+id/imageView2"
+            android:layout_gravity="right|center_vertical" />
+    </FrameLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:background="@drawable/rock_button"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="86dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:text=""
+        android:visibility="invisible"
+        android:background="@drawable/pause_button"
+        android:id="@+id/button2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter code"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/frameLayout"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

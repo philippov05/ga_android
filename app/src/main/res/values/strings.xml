@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GuitAIR</string>
+    <string name="start">START</string>
+    <string name="high_scores">HIGH SCORES</string>
+    <string name="settings">SETTINGS</string>
+    <string name="sdf">\@strings/play</string>
+    <string name="error_gyroscope_title">Ошибка:(</string>
+    <string name="ok">Ок:(</string>
+    <string name="no_gyroscope_message">Очень жаль, но GuitAir пока что не работает на телефонах без гироскопа. Мы работаем над этим. Пожалуйста, поделитесь приложением с друзьями(у которых есть гироскоп) и следите за новостями!</string>
+    <string name="share">Поделиться</string>
+</resources>
